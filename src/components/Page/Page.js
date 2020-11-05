@@ -17,7 +17,9 @@ export default () => {
   }, []);
   return (
     <>
-      <Greating />
+      <div className="greating">
+        <Greating />
+      </div>
       <div className="items">
         {pageContent.map((obj, index) => {
           return <Item key={index} name={obj.name} emoji={obj.emoji} />;

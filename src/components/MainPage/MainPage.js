@@ -8,7 +8,7 @@ import TopBar from "../TopBar/TopBar";
 const english = [
   { name: "Numbers", emoji: "🔢", page: "Numbers" },
   { name: "Alphabets", emoji: "🔡", page: "Alphabets" },
-  { name: "Comming Soon", emoji: "🔥", page: "Alphabets" }
+  { name: "Comming Soon", emoji: "🔥", page: "Comming Soon" }
 ];
 
 const arabic = [
