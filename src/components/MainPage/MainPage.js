@@ -8,6 +8,7 @@ import TopBar from "../TopBar/TopBar";
 const english = [
   { name: "Numbers", emoji: "🔢", page: "Numbers" },
   { name: "Alphabets", emoji: "🔡", page: "Alphabets" },
+  { name: "Comming Soon", emoji: "🔥", page: "Comming Soon" },
   { name: "Comming Soon", emoji: "🔥", page: "Comming Soon" }
 ];
 
@@ -25,6 +26,8 @@ export default () => {
   return (
     <>
       <TopBar />
+      <img id="dave" src="/img/Dave-Ava.png" alt="" />
+
       <div className="list">
         {pages.map((obj, index) => {
           return (

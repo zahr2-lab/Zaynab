@@ -1,9 +1,9 @@
 import React, { useState } from "react";
 import "./Item.scss";
 
-export default ({ name, emoji }) => {
+export default ({ name, emoji, page }) => {
   const [emojii, setEmojii] = useState(false);
-  let audio = new Audio(`/sounds/${name}.m4a`);
+  let audio = new Audio(`/sounds/${page}/${name}.m4a`);
   const start = () => {
     !isNaN(audio.duration) && audio.play();
 

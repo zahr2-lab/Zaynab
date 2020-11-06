@@ -22,7 +22,14 @@ export default () => {
       </div>
       <div className="items">
         {pageContent.map((obj, index) => {
-          return <Item key={index} name={obj.name} emoji={obj.emoji} />;
+          return (
+            <Item
+              key={index}
+              page={obj.page}
+              name={obj.name}
+              emoji={obj.emoji}
+            />
+          );
         })}
       </div>
     </>

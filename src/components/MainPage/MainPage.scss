@@ -1,13 +1,15 @@
 .list{
+  height: calc(100vh - 10rem);
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
   width: 100%;
-  height: calc(100vh - 8rem);
+  overflow: auto;
+  // background: rebeccapurple;
 }
 .listItem{
   width: 90%;
+  min-height: 5rem;
   max-height: 5rem;
   flex: 1 1 100%;
   display: flex;
@@ -30,4 +32,6 @@
   }
   }
   
-  
+  #dave{
+    width: 15rem;
+  }
