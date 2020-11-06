@@ -5,7 +5,8 @@
   align-items: center;
   width: 100%;
   overflow: auto;
-  // background: rebeccapurple;
+  background: rebeccapurple;
+  padding:.5rem 0;
 }
 .listItem{
   width: 90%;
@@ -32,6 +33,7 @@
   }
   }
   
-  #dave{
-    width: 15rem;
+  .dave{
+    width: 13rem;
+    margin-bottom:1rem; 
   }

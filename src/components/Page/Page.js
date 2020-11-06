@@ -20,6 +20,7 @@ export default () => {
       <div className="greating">
         <Greating />
       </div>
+      <img className="dave" src="/img/Dave-Ava.png" alt="" />
       <div className="items">
         {pageContent.map((obj, index) => {
           return (
