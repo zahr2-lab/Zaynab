@@ -8,12 +8,17 @@ import TopBar from "../TopBar/TopBar";
 const english = [
   { name: "Numbers", emoji: "🔢", page: "Numbers" },
   { name: "Alphabets", emoji: "🔡", page: "Alphabets" },
+  { name: "Colors", emoji: "🎨", page: "Colors" },
+  { name: "Shapes", emoji: "🌟", page: "Shapes" },
   { name: "Comming Soon", emoji: "🔥", page: "Comming Soon" }
 ];
 
 const arabic = [
-  { name: "الأرقام", emoji: "🔢", page: "Numbers" },
-  { name: "الحروف", emoji: "🔡", page: "Abjadia" }
+  { name: "الأرقام", emoji: "🔢", page: "ArabicNums" },
+  { name: "الحروف", emoji: "🔡", page: "Abjadia" },
+  { name: "الألوان", emoji: "🎨", page: "Colors" },
+  { name: "الأشكال", emoji: "🌟", page: "Shapes" },
+  { name: "قريباً", emoji: "🔥", page: "Comming Soon" }
 ];
 
 export default () => {

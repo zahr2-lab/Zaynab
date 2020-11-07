@@ -29,6 +29,7 @@ export default () => {
               page={obj.page}
               name={obj.name}
               emoji={obj.emoji}
+              filename={obj.filename}
             />
           );
         })}
