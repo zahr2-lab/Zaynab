@@ -60,7 +60,7 @@ export const content = [
   { name: "ش", page: "Abjadia", emoji: "🌞", filename: "shaa" },
   { name: "ص", page: "Abjadia", emoji: "🐥️", filename: "sad" },
   { name: "ض", page: "Abjadia", emoji: "🐸", filename: "dad" },
-  { name: "ط", page: "Abjadia", emoji: "🦚", filename: "ttaa" },
+  { name: "ط", page: "Abjadia", emoji: "✈️", filename: "ttaa" },
   { name: "ظ", page: "Abjadia", emoji: "✉️", filename: "thaa" },
   { name: "ع", page: "Abjadia", emoji: "👁️", filename: "ayn" },
   { name: "غ", page: "Abjadia", emoji: "🌧️", filename: "ghayn" },
